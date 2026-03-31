@@ -53,7 +53,7 @@ class PhotoDataset(Dataset):
 def get_photo_dataloader(
     photo_dir: str = "data/photos",
     image_size: int = 128,
-    grayscale: bool = False,
+    grayscale: bool = True,
     batch_size: int = 2,
     max_samples: int | None = None,
 ) -> tuple[DataLoader, int]:
