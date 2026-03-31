@@ -1,0 +1,14 @@
+# Training artifacts
+checkpoints/
+checkpoints_photos/
+
+# Downloaded datasets (large, re-downloadable)
+data/MNIST/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
